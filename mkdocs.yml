@@ -1,0 +1,60 @@
+site_name: Portal de Noticias Burburinho - Grupo 3
+site_url: https://unbarqdsw2026-2-turma01.github.io/2026.2-T01-_G3_ProjetoPortalNoticias_Entrega_02
+
+repo_url: https://github.com/UnBArqDsw2026-2-Turma01/2026.2-T01-_G3_ProjetoPortalNoticias_Entrega_02
+repo_name: GitHub
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/UnBArqDsw2026-2-Turma01/2026.2-T01-_G3_ProjetoPortalNoticias_Entrega_02
+
+theme:
+  name: material
+  logo: assets/SapoBurburinho.svg
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Usar preferencia do sistema
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para o modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para o modo claro
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - content.code.copy
+
+nav:
+  - Apresentacao: index.md
+  - Projeto:
+      - Projeto: Projeto/Projeto.md
+  - 1. Desenho de Software (Modelagem):
+      - 1. Modelagem: Base/1.Modelagem.md
+      - Relatorios:
+          - 1.1.1. SubEquipe 01: Base/Relatórios/1.1.1.SubEquipe_01.md
+          - 1.1.2. SubEquipe 02: Base/Relatórios/1.1.2.SubEquipe_02.md
+          - 1.1.3. SubEquipe 03: Base/Relatórios/1.1.3.SubEquipe_03.md
+      - 1.2. Participacoes - Modelagem: Base/1.2.ParticipacoesModelagem.md
+      - 1.3. Iniciativas Extras - Modelagem: Base/1.3.IniciativasExtras.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/custom.css
