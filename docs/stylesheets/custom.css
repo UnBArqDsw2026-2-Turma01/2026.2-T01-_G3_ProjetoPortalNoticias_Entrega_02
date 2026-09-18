@@ -1,3 +1,135 @@
+.diagram-frame,
+.diagram-preview {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+}
+
+.diagram-preview {
+  position: relative;
+  min-height: 120px;
+  padding: 0;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+
+.diagram-preview::after {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 5px 8px;
+  border-radius: 4px;
+  background: rgb(0 0 0 / 70%);
+  color: #fff;
+  content: "Ampliar";
+  font-size: 0.75rem;
+}
+
+.diagram-preview img {
+  display: block;
+  width: 100%;
+  max-height: min(70vh, 680px);
+  object-fit: contain;
+  background: var(--md-default-bg-color);
+}
+
+.diagram-modal[hidden] {
+  display: none;
+}
+
+.diagram-modal {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.diagram-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgb(0 0 0 / 78%);
+}
+
+.diagram-modal-panel {
+  position: relative;
+  z-index: 1;
+  width: min(96vw, 1500px);
+  height: min(94vh, 1100px);
+  padding: 16px;
+  border: 1px solid rgb(255 255 255 / 25%);
+  background: var(--md-default-bg-color);
+  box-shadow: 0 16px 50px rgb(0 0 0 / 35%);
+}
+
+.diagram-modal-close {
+  position: absolute;
+  z-index: 2;
+  top: 8px;
+  right: 8px;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: rgb(0 0 0 / 70%);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.diagram-modal-tools {
+  position: absolute;
+  z-index: 2;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  gap: 4px;
+}
+
+.diagram-modal-tools button {
+  min-width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 4px;
+  background: rgb(0 0 0 / 70%);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.diagram-modal-content {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+}
+
+.diagram-modal-media {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: contain;
+}
+
+.diagram-modal-open {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .diagram-modal {
+    padding: 8px;
+  }
+
+  .diagram-modal-panel {
+    width: 100vw;
+    height: 92vh;
+    padding: 8px;
+  }
+}
 :root > * {
   --md-primary-fg-color: #f04444;
   --md-accent-fg-color: #f04444;
