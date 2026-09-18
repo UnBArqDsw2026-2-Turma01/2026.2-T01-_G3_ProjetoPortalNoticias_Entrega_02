@@ -46,7 +46,87 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-## Screenshots da Primeira Entrega
+## Diagramas finais da modelagem
+
+### SubEquipe 01 — Diagrama de pacotes
+
+<figure style="text-align: center;">
+    <iframe class="diagram-frame" src="assets/subGrupo1/pacotesgrupo.html" title="Diagrama de pacotes final da SubEquipe 01" loading="lazy"></iframe>
+    <figcaption>
+        <p style="text-align: center; font-size: 10pt;">
+            Figura: Diagrama de pacotes consolidado da SubEquipe 01 (Fonte: SubEquipe 01, 2026)
+        </p>
+    </figcaption>
+</figure>
+
+### SubEquipe 01 — Diagramas de atividades individuais
+
+<figure style="text-align: center;">
+    <iframe class="diagram-frame" src="assets/subGrupo1/atividadesgi.png" title="Diagrama de atividades de Giovanna Aguiar, SubEquipe 01" loading="lazy"></iframe>
+    <figcaption>Figura: Diagrama de atividades de Giovanna Aguiar (Fonte: SubEquipe 01, 2026)</figcaption>
+</figure>
+
+<figure style="text-align: center;">
+    <iframe class="diagram-frame" src="assets/subGrupo1/atividadesPedro.png" title="Diagrama de atividades de Pedro Henrique, SubEquipe 01" loading="lazy"></iframe>
+    <figcaption>Figura: Diagrama de atividades de Pedro Henrique (Fonte: SubEquipe 01, 2026)</figcaption>
+</figure>
+
+<figure style="text-align: center;">
+    <iframe class="diagram-frame" src="assets/subGrupo1/atividadesJoao.png" title="Diagrama de atividades de Joao Pedro, SubEquipe 01" loading="lazy"></iframe>
+    <figcaption>Figura: Diagrama de atividades de Joao Pedro (Fonte: SubEquipe 01, 2026)</figcaption>
+</figure>
+
+<figure style="text-align: center;">
+    <iframe class="diagram-frame" src="assets/subGrupo1/atividadesJulia.png" title="Diagrama de atividades de Julia Gabriella, SubEquipe 01" loading="lazy"></iframe>
+    <figcaption>Figura: Diagrama de atividades de Julia Gabriella (Fonte: SubEquipe 01, 2026)</figcaption>
+</figure>
+
+### SubEquipe 02 — Diagrama de classes
+
+<figure style="text-align: center;">
+    <iframe class="diagram-frame" src="assets/subGrupo2/SubGrupo2-Classes.jpg" title="Diagrama de classes final da SubEquipe 02" loading="lazy"></iframe>
+    <figcaption>
+        <p style="text-align: center; font-size: 10pt;">
+            Figura: Diagrama de classes consolidado da SubEquipe 02 (Fonte: SubEquipe 02, 2026)
+        </p>
+    </figcaption>
+</figure>
+
+### SubEquipe 02 — Diagramas de comunicação/ contribuição
+
+<figure style="text-align: center;">
+    <iframe class="diagram-frame" src="assets/subGrupo2/SubGrupo2-Contribu-Publicar.jpg" title="Diagrama de comunicação de publicação, SubEquipe 02" loading="lazy"></iframe>
+    <figcaption>Figura: Diagrama de comunicação de publicação (Fonte: SubEquipe 02, 2026)</figcaption>
+</figure>
+
+<figure style="text-align: center;">
+    <iframe class="diagram-frame" src="assets/subGrupo2/SubGrupo2-Contribu-Perfil.jpg" title="Diagrama de comunicação de perfil, SubEquipe 02" loading="lazy"></iframe>
+    <figcaption>Figura: Diagrama de comunicação de perfil (Fonte: SubEquipe 02, 2026)</figcaption>
+</figure>
+
+<figure style="text-align: center;">
+    <iframe class="diagram-frame" src="assets/subGrupo2/SubGrupo2-Contribu-Seguir.jpg" title="Diagrama de comunicação de seguir comunidade, SubEquipe 02" loading="lazy"></iframe>
+    <figcaption>Figura: Diagrama de comunicação de seguir comunidade (Fonte: SubEquipe 02, 2026)</figcaption>
+</figure>
+
+### SubEquipe 03 — Diagrama de componentes
+
+<figure style="text-align: center;">
+    <iframe class="diagram-frame" src="assets/subGrupo3/estatico_componentes_final.png" title="Diagrama de componentes final da SubEquipe 03" loading="lazy"></iframe>
+    <figcaption>
+        <p style="text-align: center; font-size: 10pt;">
+            Figura: Diagrama de componentes final da SubEquipe 03 (Fonte: SubEquipe 03, 2026)
+        </p>
+    </figcaption>
+</figure>
+
+### SubEquipe 03 — Diagramas de estados
+
+<figure style="text-align: center;">
+    <iframe class="diagram-frame" src="assets/subGrupo3/dinamico_estados_final.png" title="Máquina de estados de Giovanna, SubEquipe 03" loading="lazy"></iframe>
+    <figcaption>Figura: Máquina de estados de Giovanna (Fonte: SubEquipe 03, 2026)</figcaption>
+</figure>
+
 
 ## Há algo a ser executado?
 
