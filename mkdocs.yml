@@ -45,7 +45,9 @@ nav:
   - 1. Desenho de Software (Modelagem):
       - 1. Modelagem: Base/1.Modelagem.md
       - Relatorios:
-          - 1.1.1. SubEquipe 01: Base/Relatórios/1.1.1.SubEquipe_01.md
+          - 1.1.1. SubEquipe 01:
+              - 1.1.1.1. SubEquipe 01: Base/Relatórios/1.1.1.SubEquipe_01.md
+              - 1.1.1.2. SubEquipe 01 - Pacotes IA: Base/Relatórios/SubEquipe_01_pacotes_IA/pacotesIA.md
           - 1.1.2. SubEquipe 02: Base/Relatórios/1.1.2.SubEquipe_02.md
           - 1.1.3. SubEquipe 03: Base/Relatórios/1.1.3.SubEquipe_03.md
       - 1.2. Participacoes - Modelagem: Base/1.2.ParticipacoesModelagem.md
@@ -54,7 +56,11 @@ nav:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_css:
   - stylesheets/custom.css
